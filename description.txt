@@ -1,0 +1,43 @@
+RW Freelance
+
+front-end
+Photo credits w/tooltip
+
+back-end
+
+encrypt password
+
+add methods: user-update, user-delete, user-reset
+
+
+
+
+Description:
+This demonstration website was built on the LAMP stack (Linux, Apache, MySQL, PHP) for back-end, encompassing a database and RESTful API service.  
+The front-end was built using Vuejs javascript framework.  
+
+Back-end:
+	MySQL database houses user data.
+	REST API: Written in php, interfaces with MySQL database using PDO library.
+		Methods: register, login, update...
+	input validation/sanitation
+
+Front-end: 
+	Single Page Application style website/app, where components displayed on screen update but the page is never reloaded.
+	data store
+		central data store allows components to react to state changes
+		quickly change color themes
+	router
+	async external requests
+	mobile friendly
+		optimize space use dynamically based on viewport size
+	modular design
+		easily reuse components
+	input validations
+
+Server: CentOS [[version]] 	
+
+
+
+
+
